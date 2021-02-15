@@ -4,10 +4,7 @@ input{border-color:#003049;}
 /*#my1{background-color:black;}*/
 /* Class selectors */
 /*.my2{background-color:rgb(245, 0, 0); }*/
-span{font-size:15px;font-family:Georgia;color:#ffb703;line-height: 2em;}
-p{background-color: red;}
+span{font-size:15px;font-family:Georgia;line-height: 2em;}
 .fit{width: 400px;}
 body{padding: 0px 0px 10px 30px;}
 button{border-radius: 10px;}
-span{border-style:solid;color: red}
-label{border-style:solid;margin: 1px;}
