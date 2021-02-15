@@ -9,4 +9,5 @@ p{background-color: red;}
 .fit{width: 400px;}
 body{padding: 0px 0px 10px 30px;}
 button{border-radius: 10px;}
-span{border-style:solid;color: red; bord}
+span{border-style:solid;color: red}
+label{border-style:solid;margin: 1px;}
