@@ -1,6 +1,5 @@
-head{
-    position:sticky;
-}
+
+
 body{
     background-color: #fffef9;
 }
@@ -8,6 +7,7 @@ body{
     display:inline-block;
     /* border:black 2px solid; */
     position:absolute;
+    left:50px;
 }
 .right{
     display:inline-block;
@@ -40,6 +40,7 @@ body{
 }
 #name{
    font-size:27px;
+   left:20px;
 }
 .left a{
     text-decoration: none;
@@ -60,7 +61,7 @@ body{
     border-color: #9f8557;
 }
 #heading{
-    margin-top: 80px;
+    margin-top: 149px;
     margin-left: 200px;
     position: absolute;
     display: inline-block;
@@ -68,22 +69,48 @@ body{
     color: #9f8557;
 }
 #vline{
-    border-left: 4px black solid;
-    border-left-color: black;
+    border-left-color: #9f8557;
     border-left-style: solid;
-    border-left-width: 4px;
+    border-left-width: 3px;
     position: absolute;
-    background-color: red;
     height: 80px;
     left: 290px;
+    top: 100px;
 }
 #vline2{
-    border-left-color: black;
+    border-left-color: #9f8557;
     border-left-style: solid;
-    border-left-width: 4px;
+    border-left-width: 3px;
     position: absolute;
-    background-color: red;
-    height: 150px;
+    height: 55px;
     left: 290px;
-    margin-top: 140px;
+    margin-top: 210px;
+}
+#vline3{
+    border-left-color: #9f8557;
+    border-left-style: solid;
+    border-left-width: 3px;
+    position: absolute;
+    height: 55px;
+    left: 290px;
+    margin-top: 305px;
+}
+#discover{
+    margin-top: 265px;
+    margin-left: 239px;
+    padding: 10px 20px;
+    background: whitesmoke;
+    color: #9f8557;
+    border-color: #9f8557;
+}
+img{
+  
+    border: 2px solid black;
+    width: 569px;
+    margin-left: 500px;
+    margin-top: -239px;
+    height: 748px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition: ease-in-out 2s;
 }
