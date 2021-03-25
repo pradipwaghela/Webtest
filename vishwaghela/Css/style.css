@@ -62,11 +62,12 @@ body{
 }
 #heading{
     margin-top: 149px;
-    margin-left: 200px;
+    margin-left: 108px;
     position: absolute;
     display: inline-block;
-    width: 200px;
+    width: 364px;
     color: #9f8557;
+    font-size: 47px;
 }
 #vline{
     border-left-color: #9f8557;
@@ -82,22 +83,22 @@ body{
     border-left-style: solid;
     border-left-width: 3px;
     position: absolute;
-    height: 55px;
-    left: 290px;
-    margin-top: 210px;
+    height: 90px;
+    left: 276px;
+    margin-top: 261px;
 }
 #vline3{
     border-left-color: #9f8557;
     border-left-style: solid;
     border-left-width: 3px;
     position: absolute;
-    height: 55px;
-    left: 290px;
-    margin-top: 305px;
+    height:130px;
+    left: 276px;
+    margin-top: 394px;
 }
 #discover{
-    margin-top: 265px;
-    margin-left: 239px;
+    margin-top: 352px;
+    margin-left: 222px;
     padding: 10px 20px;
     background: whitesmoke;
     color: #9f8557;
@@ -190,3 +191,9 @@ form h2{
     color: black;
 }
  
+@media (max-width: 525px){
+    .quote img{
+        margin:auto;
+        margin-top: 10px;
+    }
+}
