@@ -1,5 +1,8 @@
 
+*{
+    padding: 0;
 
+}
 body{
     background-color: #fffef9;
 }
@@ -27,6 +30,7 @@ body{
 }.navbar li{
     display: inline-block;
     font-size: 20px;
+    text-transform: uppercase;
 }
 .navbar li a{
     color: #9f8557;
@@ -48,6 +52,7 @@ body{
 }
 .header{
     transition:ease-in 2s;
+    font-family: 'Dosis', sans-serif;
 }
 .btn{
     margin: 1.5px;
@@ -61,6 +66,15 @@ body{
     border-color: #9f8557;
 }
 #heading{
+    margin-top: 149px;
+    margin-left: 108px;
+    position: absolute;
+    display: inline-block;
+    width: 364px;
+    color: #9f8557;
+    font-size: 47px;
+}
+#heading2{
     margin-top: 149px;
     margin-left: 108px;
     position: absolute;
@@ -107,7 +121,7 @@ body{
 img{
   
     border: 2px solid black;
-    width: 569px;
+    width: 100%;
     margin-left: 500px;
     margin-top: -239px;
     height: 748px;
