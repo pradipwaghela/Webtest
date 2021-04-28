@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+     margin: 0px;
+}
+/* Navbar */
+.navbar{
+    flex-direction: column;
+}
+/* Home */
+
+/* Services */
+h3{
+    font-size: 1.5rem;
+}
+/* Work */
+
+/* Quote */
+.quote p {
+    /* margin-top: -210px; */
+    width: auto;
+}
+/* Contact-FOrm */
